@@ -1,3 +1,4 @@
 var s = skrollr.init({
-    forceHeight: false
+    forceHeight: false,
+    smoothScrolling: true
 });
