@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="wrap">
+                <p>Header</p>
+            </div>
+        </header>
+
+        <div class="hero section" id="hero">
+            <div class="text wrap">
+                <h1>Ações de aprendizagem no formato de Experiências Imersivas.</h1>
+                <h1>Conteúdos que engajam pessoas, por meio de histórias gamificadas.</h1>
+                <h1>Interatividade e tecnologia a favor da resolução de problemas estratégicos.</h1>
+                <h1>Indicadores de desempenho para medir conhecimentos, habilidades e atitudes.</h1>
+                <h1>Uma nova forma de aprender e aplicar o conhecimento em situações do dia a dia.</h1>
+                <h1>A inovação na aprendizagem que impacta resultados e contribui com o crescimento da sua organização.</h1>
+            </div>
+
+            <div class="wrapper-video">
+                <div class="video-overlay" data-start="opacity: 1;" data-600-start="opacity: 0;"></div>
+                    <video class="videofull" id="videofull" src="video.mp4" autoplay muted loop 
+                            data-300-start="transform: scale(1)"
+                            data-600-start="transform: scale(.3);"
+                            anchor-target="#hero">
+                    </video>
+            </div>
+        </div>
+
+        <main class="main" id="main">
+            <section class="section devices">
+
+                <div class="iphone">
+                    <p>iPhone</p>
+                </div>
+
+                <div class="ipad">
+                    <p>iPad</p>
+                </div>
+
+                <div class="mac">
+                    <p>Mac</p>
+                </div>
+
+                <div class="note">
+                    <p>Note</p>
+                </div>
+            </section>
+            
+            <section class="section purple">
+                <div class="wrap">
+                    <h2>Teste</h2>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <h1>Footer</h1>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="skrollr.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
